@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excel", "Excel\Excel.csproj", "{462286FE-0944-4988-B350-21561935BB8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{2466CBB5-4C0E-4C49-9298-3878C35B60DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "API\Common\Common.csproj", "{F7189BC0-25A8-43DC-9414-76CE1CB91F17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealtimeData", "API\RealtimeData\RealtimeData.csproj", "{FFCA7A82-DFFB-4A74-BD5B-1BE015902F3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API\API.csproj", "{3CDB6EE7-846C-448B-9D38-4C214C7003F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console", "Console\Console.csproj", "{C020171E-0B10-4BFD-83B5-591493C73B53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{CB81513D-FDCE-4ADD-B5A2-1AB80820F14B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{7390B6FC-2DC4-456E-A63F-96C8BDFA505B}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{462286FE-0944-4988-B350-21561935BB8A}.Debug|x86.ActiveCfg = Debug|x86
+		{462286FE-0944-4988-B350-21561935BB8A}.Debug|x86.Build.0 = Debug|x86
+		{462286FE-0944-4988-B350-21561935BB8A}.Release|x86.ActiveCfg = Release|x86
+		{462286FE-0944-4988-B350-21561935BB8A}.Release|x86.Build.0 = Release|x86
+		{F7189BC0-25A8-43DC-9414-76CE1CB91F17}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F7189BC0-25A8-43DC-9414-76CE1CB91F17}.Release|x86.ActiveCfg = Release|Any CPU
+		{FFCA7A82-DFFB-4A74-BD5B-1BE015902F3B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FFCA7A82-DFFB-4A74-BD5B-1BE015902F3B}.Release|x86.ActiveCfg = Release|Any CPU
+		{3CDB6EE7-846C-448B-9D38-4C214C7003F5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3CDB6EE7-846C-448B-9D38-4C214C7003F5}.Release|x86.ActiveCfg = Release|Any CPU
+		{C020171E-0B10-4BFD-83B5-591493C73B53}.Debug|x86.ActiveCfg = Debug|x86
+		{C020171E-0B10-4BFD-83B5-591493C73B53}.Debug|x86.Build.0 = Debug|x86
+		{C020171E-0B10-4BFD-83B5-591493C73B53}.Release|x86.ActiveCfg = Release|x86
+		{C020171E-0B10-4BFD-83B5-591493C73B53}.Release|x86.Build.0 = Release|x86
+		{CB81513D-FDCE-4ADD-B5A2-1AB80820F14B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CB81513D-FDCE-4ADD-B5A2-1AB80820F14B}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F7189BC0-25A8-43DC-9414-76CE1CB91F17} = {2466CBB5-4C0E-4C49-9298-3878C35B60DB}
+		{FFCA7A82-DFFB-4A74-BD5B-1BE015902F3B} = {2466CBB5-4C0E-4C49-9298-3878C35B60DB}
+		{3CDB6EE7-846C-448B-9D38-4C214C7003F5} = {2466CBB5-4C0E-4C49-9298-3878C35B60DB}
+	EndGlobalSection
+EndGlobal
